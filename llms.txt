@@ -1,0 +1,14 @@
+# watchvrmovie.com
+
+> watchvrmovie.com is an online movie theater you can visit in a VR headset browser or on a phone, tablet or computer. The doors open Summer 2027. Its first film is THE EARTH MOVIE, a satirical, family-friendly feature made with AI-generated characters, voices and imagery by Madwackd Productions.
+
+## Facts
+- Status: closed until Summer 2027; no exact date announced
+- First film: THE EARTH MOVIE (https://www.theearthmovie.com/)
+- Tickets: presale $2.99 at https://www.theearthmovie.com/#tickets; $4.99 at release; full refund on request before release
+- AI disclosure: THE EARTH MOVIE uses AI-generated characters, voices and imagery
+- Run by: Madwackd Productions LLC, Denver, Colorado (https://www.madwackd.com/)
+
+## Pages
+- [Theater front door and waitlist](https://www.watchvrmovie.com/)
+- [Legal and privacy](https://www.watchvrmovie.com/legal/)
