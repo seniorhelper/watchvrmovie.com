@@ -30,7 +30,7 @@ p{margin:0 0 1em}
 .btn-gold:hover{color:#1d1206;transform:translateY(-2px);box-shadow:0 0 24px rgba(255,201,74,.55),0 10px 26px rgba(255,201,74,.3)}
 .btn-ghost{background:transparent;color:var(--ink);border-color:rgba(255,255,255,.4)}
 .btn-ghost:hover{border-color:#fff;color:#fff;background:rgba(255,255,255,.06)}
-.btn-sm{min-height:40px;padding:.5em 1em;font-size:.92rem}
+.btn-sm{min-height:40px;padding:.5em 1em;font-size:.92rem;white-space:nowrap}
 .btn-big{font-size:1.08rem;min-height:56px;padding:.85em 1.4em;width:100%}
 
 /* header */
@@ -174,7 +174,8 @@ details p{color:var(--ink2)}
 }
 @media (max-width:640px){
   .nav a:not(.btn){display:none}
-  .brand{font-size:1rem}
+  .brand{font-size:.95rem}
+  .btn-sm{padding:.5em .8em;font-size:.85rem}
   .brand-ico{width:28px;height:28px}
   .facade{padding:14px 10px 0;border-radius:14px 14px 0 0}
   .front{grid-template-columns:1fr;gap:16px}
@@ -192,3 +193,21 @@ details p{color:var(--ink2)}
   *,*::before,*::after{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}
 }
+
+/* trailer screen, studio, footer heart */
+.lede{font-size:1.12rem;color:var(--ink2);max-width:60ch}
+.center{justify-content:center}
+.screen-band{background:radial-gradient(900px 400px at 50% 0,#2a1446 0,transparent 70%),#07040f;text-align:center}
+.screen-band .lede{margin-inline:auto}
+.screen{margin:26px auto 0;max-width:1040px;padding:10px;border-radius:12px;background:#000;box-shadow:0 0 0 2px #2b1d40,0 0 80px rgba(126,224,255,.18),var(--shadow)}
+.screen video{display:block;width:100%;height:auto;border-radius:6px;background:#000}
+.screen-sm{margin:0;max-width:none}
+.cards-4{grid-template-columns:repeat(4,1fr)}
+.studio-band{background:var(--night2)}
+.sig{display:flex;align-items:center;justify-content:center;gap:8px;padding:22px 0 4px;margin-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:.92rem}
+.sig svg{width:16px;height:16px;animation:beat 1.6s ease-in-out infinite;transform-origin:center}
+.sig a{color:#fff;text-decoration:none;font-weight:600;display:inline-flex;align-items:center;min-height:44px}
+.sig a:hover{text-decoration:underline}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.25)}30%{transform:scale(1)}45%{transform:scale(1.18)}}
+@media (max-width:960px){.cards-4{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.cards-4{grid-template-columns:1fr}.screen{padding:5px}}
